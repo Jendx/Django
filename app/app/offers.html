@@ -1,0 +1,18 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Creativ</h1>
+    <p class="lead">Creativ is free service for people who would like to create beutiful photos but are missing space for it. Here on Creativ, people can rent theyr empty rooms for your creative needs! </p>
+    <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+    {% load staticfiles %}
+<script src="{% static 'app/scripts/jquery.validate.min.js' %}"></script>
+
+{% endblock %}
